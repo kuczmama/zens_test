@@ -1,5 +1,5 @@
 class MessageController < ApplicationController
 	def index
-		@messages = expense
+		@messages = Message.all
 	end
 end

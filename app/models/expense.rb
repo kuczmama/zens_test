@@ -1,3 +1,3 @@
 class Expense < ApplicationRecord
-	has_one :ListingTransaction
+	has_one :listing_transaction
 end

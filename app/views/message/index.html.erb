@@ -1,6 +1,6 @@
 
 <% @messages.each do |message| %>
 	<div class="message-body">
-  		<%= sanitize message.body %>
+  		<%= sanitize(h(message.body)) %>
 	</div>
 <% end %>

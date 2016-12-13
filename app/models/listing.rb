@@ -1,3 +1,3 @@
 class Listing < ApplicationRecord
-	has_many :ListingTransaction
+	has_many :listing_transactions
 end
